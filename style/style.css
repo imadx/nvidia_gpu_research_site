@@ -214,7 +214,7 @@ body{
 	top: 0;
 	left: 100%;
 	white-space: normal;
-	overflow: scroll;
+	overflow-y: scroll;
 	transition: left .3s;
 	line-height: 1.5;
 }
