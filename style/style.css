@@ -6,6 +6,7 @@
 }
 a:link, a:hover; a:visited; a:active{
 	text-decoration: none;
+	font-weight: bold;
 	color: #fff;
 }
 ul a{
@@ -94,6 +95,7 @@ h1{
 	float: left;
 	border-radius: 50px;
 	margin-right: 20px;
+	border: #cfc thin solid;
 }
 .expansion div.projectItem h2{
 	padding:0;
@@ -151,11 +153,11 @@ body{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: url(../img/mainContentOverlay.png) fixed left bottom;
+	background: url(../img/mainContentOverlay.png) fixed left bottom no-repeat;
 }
 #mainContent div.wrapper{
 	position: absolute;
-	width: 550px;
+	width: 600px;
 	padding: 30px;
 	padding-bottom: 40px;
 	bottom: 0;
