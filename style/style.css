@@ -38,13 +38,13 @@ h1{
 	top: 0px;
 	left: 0px;
 	position: fixed;
-	z-index: -1;
+	z-index: -12;
 	background: url(../img/overlay.png) repeat;
 }
 #mainContent{
 	margin:0;
 	padding:20px;
-	z-index: 1000;
+	z-index: -10;
 }
 #mainContent img{
 	padding: 10px;
