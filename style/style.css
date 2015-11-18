@@ -234,4 +234,7 @@ body{
 #Contacts{
 	display: none;
 }
+.shortDescription{
+	font-size: 11pt;
+}
 }
